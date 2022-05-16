@@ -1,0 +1,134 @@
+.team-member-container {
+    /* display: grid;
+        grid-template-columns: 20% 80%;*/
+        margin-left: 200px;
+    width: 85%;
+    min-height: 1000px; 
+    /* display: flex;
+    
+    justify-content: center;
+    align-items: center;  */
+    background: radial-gradient(100% 197.75% at 0% 22.22%, #296687 0%, #4DE0E5 51.56%, #001C20 100%)
+            /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+     , #FFFFFF;
+}
+/* .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.project-one {
+    grid-row: 1/ 7;
+    grid-column: 1/2;
+    background: #2351DC;
+} */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.separator{
+    width: 100%;
+    margin: 170px 0 100px 0;
+}
+.members{
+    
+    padding-bottom: 20px;
+    width: 1000px;
+    height: 775px;
+    /* margin-left: 77px; */
+    background: #ECEFF7;
+    opacity: 0.8;
+    border-radius: 50px 50px 0px
+}
+.members .title{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    height: 80px;
+    background: #296687;
+    border-radius: 50px 50px 0px 0px;
+}
+.members .title  h5{
+align-items: flex-start;
+margin-left: 70px;
+width: 181px;
+height: 29px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+color: #ECEFF7;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.members-info{
+    padding-left: 40px;
+}
+.members .members-info img{
+margin-top: 20px;
+width: 120px;
+height: 120px;
+}
+.members .members-info .member-one{
+    display: flex;
+}
+
+.members .members-info .member-one .info{
+    margin-top: 20px;
+    width: 745px;
+    height: 120px;
+    background: #FFFFFF;
+    display: flex;
+}
+.members .members-info .member-one .info .name{
+    display: grid;
+    place-content: center;
+    padding-left: 20px;
+}
+.members .members-info .member-one .info .name h6{
+    width: 60px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+}
+.members .members-info .member-one .info .name p{
+width: 71px;
+height: 15px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+    color: #17585C;
+}
+ .members .members-info .member-one .info ol{
+    display: flex;
+    align-items: center;
+}
+.members .members-info .member-one .info ol li{
+    list-style: none;
+    width: 130px;
+    height: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #17585C;
+}
+.members .members-info .member-one .info ol li.email{
+    margin: 0 100px 0 40px;
+}
+.members .members-info .member-one .info ol li.gender{
+margin: 0 20px 0 160px;
+}

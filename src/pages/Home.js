@@ -1,10 +1,11 @@
 import React from 'react'
+import './css/Home.css';
 
 const Home = () => {
   return (
-    <div>
-        This is home where thhe usersarrived firsr!
-    </div>
+    <main>
+        This is home where thhe usersarrived first!
+    </main>
   )
 }
 

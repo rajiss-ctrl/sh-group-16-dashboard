@@ -1,0 +1,45 @@
+
+nav {
+position: absolute;
+margin-top: 0;
+width: 15%;
+height: 1000px;
+background: #001C20;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav ul .dashboard{
+    padding-top: 44px;
+}
+nav ul .dashboard a{
+    text-align: center;
+    text-decoration: none;
+    width: 109px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F5F5F5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav ul .nav-list{
+    margin-top: 221px;
+    padding-left: 16px;
+}
+
+nav ul .nav-list a{
+    text-decoration: none;
+    list-style: none;
+    
+    width: 114px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #F5F5F5;
+}
+nav ul .nav-list a p{
+margin-bottom: 64px;
+}
