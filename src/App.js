@@ -1,9 +1,8 @@
-import {Routes, Route} from 'react-router-dom'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css';
 import Sidebar from './components/sidebar/Sidebar';
-import { Layout } from './Layout';
+// import { Layout } from './Layout';
 import Clients from './pages/Clients';
-import Dashboard from './pages/Dashboard';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Products from './pages/Products';
@@ -16,15 +15,13 @@ function App() {
      
         <Sidebar/> 
       <Routes>
-        <Route path="/" element={<Layout/>}>
+            {/* <Route path="/" element={<Layout/>}/> */}
             <Route path='/' element={<Home/>}/>
-            <Route  path="/dashboard" element={<Dashboard/>}/>
-            <Route  path="/login" element={<Login/>}/>
-            <Route  path="/teammember" element={<TeamMember/>}/>
-            <Route  path="/login" element={<Products/>}/>
-            <Route  path="/clients" element={<Clients/>}/>
-            <Route  path="/settings" element={<Settings/>}/>
-        </Route>
+            <Route  path="/Login" element={<Login/>}/>
+            <Route  path="/Teammember" element={<TeamMember/>}/>
+            <Route  path="/Products" element={<Products/>}/>
+            <Route  path="/Clients" element={<Clients/>}/>
+            <Route  path="/Settings" element={<Settings/>}/>
       </Routes>
     
     </div>

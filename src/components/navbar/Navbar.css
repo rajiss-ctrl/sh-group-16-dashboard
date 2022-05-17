@@ -1,11 +1,12 @@
+/* css fpr navbar component */
 
 header{
     display: flex;
     justify-content: space-between;
-    /* width: calc(100% - 600px);  */
     width: 100%;
     padding: 0 30px 0 160px;
-    margin-top: 44px;
+    margin-top: 0;
+    color: #001C20;
 }
  .search{
     display: flex;
@@ -14,26 +15,23 @@ header{
 .search input{
     outline: none;
     border: none;
-    width: 500px;
-    padding: 10px 8px;
+    width: 600px;
+    padding: 16px 8px;
     height: 60px;
     background: #F5F5F5;
     opacity: 0.8;
     border-radius: 15px;
 }
 .search input::placeholder {
-width: 180px;
-height: 19px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-color: #17585C;
-padding-left: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 40px;
+    color: #17585C;
 }
 .search .search-wrapper{
     position: relative;
+    color: #17585C;
 }
 .search .search-wrapper .search-icon{
     position: absolute;
@@ -51,21 +49,4 @@ padding-left: 40px;
     border-radius: 15px;
     cursor: pointer;
 }
- button{
-    outline: none;
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    width: 150px;
-    height: 60px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 14px;
-    background: #4DE0E5;
-    line-height: 19px;
-    color: #001C20;
-    opacity: 0.8;
-    border-radius: 15px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+

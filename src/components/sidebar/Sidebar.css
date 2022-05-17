@@ -1,11 +1,15 @@
 
-nav {
-position: absolute;
-margin-top: 0;
-width: 15%;
-height: 1000px;
-background: #001C20;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+nav{
+    position:fixed !important;
+    background: #001C20;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 0;
+    width: 15%;
+    height: 100%;
+}
+
+ul {
+    position: absolute;
 }
 
 nav ul .dashboard{
@@ -36,7 +40,7 @@ nav ul .nav-list a{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 12px;
     color: #F5F5F5;
 }
 nav ul .nav-list a p{
@@ -50,6 +54,16 @@ margin-bottom: 64px;
     .logout{
     display: flex;
 }
+
+/* .nav-list .home,
+.nav-list .group,
+.nav-list .user,
+.nav-list .shop,
+.nav-list .setting:hover{
+    color: #4DE0E5;
+} */
+
+
 .nav-list .home-icon,
  .nav-list .group-icon,
   .nav-list .user-icon,
@@ -59,7 +73,7 @@ margin-bottom: 64px;
 }
 
  .logout-wrapper a{
-     position: absolute;
+     /* position: absolute; */
      bottom: 40px;
      left: 20px;
     text-decoration: none;
