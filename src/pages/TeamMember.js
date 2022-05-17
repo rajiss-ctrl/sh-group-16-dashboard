@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/navbar/Navbar'
 import Uilady from '../assets/dashbordimg/collabWireframe.png'
+import Button from '../components/button/Button'
 import Sidebar from '../components/sidebar/Sidebar'
 import './css/TeamMember.css'
 
@@ -9,14 +10,16 @@ const TeamMember = () => {
     <div className="team-member-container">
 
       <main>
-    <div className="separator">
-          <Navbar/>
-    </div>
+        <div className="separator">
+              <Navbar/>
+              <Button props="Add Members"/>
+        </div>
 
         <div className="members">
           <div className="title">
           <h5> Team Members</h5>
           </div>
+
           <div className="members-info">
             <div className="member-one">
               <img src={Uilady} alt="" />
@@ -33,6 +36,7 @@ const TeamMember = () => {
               </div>
             </div>
           </div>
+
           <div className="members-info">
             <div className="member-one">
               <img src={Uilady} alt="" />
@@ -49,6 +53,7 @@ const TeamMember = () => {
               </div>
             </div>
           </div>
+
           <div className="members-info">
             <div className="member-one">
               <img src={Uilady} alt="" />
@@ -65,6 +70,7 @@ const TeamMember = () => {
               </div>
             </div>
           </div>
+          
           <div className="members-info">
             <div className="member-one">
               <img src={Uilady} alt="" />
