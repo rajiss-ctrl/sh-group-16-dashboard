@@ -32,14 +32,41 @@ nav ul .nav-list{
 nav ul .nav-list a{
     text-decoration: none;
     list-style: none;
-    
-    width: 114px;
+    width: 140px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 16px;
     color: #F5F5F5;
 }
 nav ul .nav-list a p{
 margin-bottom: 64px;
+}
+.nav-list .home,
+ .nav-list .group,
+ .nav-list .user,
+  .nav-list .shop,
+   .nav-list .setting,
+    .logout{
+    display: flex;
+}
+.nav-list .home-icon,
+ .nav-list .group-icon,
+  .nav-list .user-icon,
+   .nav-list  .shop-icon,
+    .nav-list .setting-icon, .logout-icon{
+    margin-right: 10px;
+}
+
+ .logout-wrapper a{
+     position: absolute;
+     bottom: 40px;
+     left: 20px;
+    text-decoration: none;
+    width: 140px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(183, 46, 46);
 }

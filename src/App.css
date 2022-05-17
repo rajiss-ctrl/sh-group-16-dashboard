@@ -3,3 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+    background: radial-gradient(100% 197.75% at 0% 22.22%, #296687 0%, #4DE0E5 51.56%, #001C20 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #FFFFFF;
+}

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import './Sidebar.css' 
-import { faBagShopping, faHome,  faUser, faUserGroup } from '@fortawesome/free-solid-svg-icons';
+import { faArrowCircleLeft, faArrowLeft, faBagShopping, faHome,  faUser, faUserGroup } from '@fortawesome/free-solid-svg-icons';
 import { faSafari } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -16,16 +16,15 @@ const Sidebar = () => {
         <Link to="/dashboard"><h4>Dashboard</h4></Link>
         </div>
        <div className="nav-list">
-        <Link to="/"><FontAwesomeIcon icon={faHome} className="fa-4x css"></FontAwesomeIcon><p>Home</p></Link>
-        <Link to="/teammember" ><FontAwesomeIcon icon={faUserGroup} className="fa-4x css"></FontAwesomeIcon><p>Team Member</p></Link>
-        <Link to="/clients" ><FontAwesomeIcon icon={faUser} className="fa-4x css"></FontAwesomeIcon><p>Clients</p></Link>
-        <Link to="/products" ><FontAwesomeIcon icon={faBagShopping} className="fa-4x css"></FontAwesomeIcon><p>Products</p></Link>
-        <Link to="/settings" ><FontAwesomeIcon icon={faSafari} className="fa-4x css"></FontAwesomeIcon><p>Settings</p></Link>
-        {/* <Link to="/login" ><p>Login</p></Link> */}
+        <Link to="/" className="home"><FontAwesomeIcon icon={faHome} className="fa-1x home-icon"></FontAwesomeIcon><p>Home</p></Link>
+        <Link to="/teammember" className="group" ><FontAwesomeIcon icon={faUserGroup} className="fa-1x group-icon"></FontAwesomeIcon><p>Team Member</p></Link>
+        <Link to="/clients" className='user' ><FontAwesomeIcon icon={faUser} className="fa-1x user-icon"></FontAwesomeIcon><p>Clients</p></Link>
+        <Link to="/products" className='shop' ><FontAwesomeIcon icon={faBagShopping} className="fa-1x shop-icon"></FontAwesomeIcon><p>Products</p></Link>
+        <Link to="/settings" className='setting'><FontAwesomeIcon icon={faSafari} className="fa-1x setting-icon"></FontAwesomeIcon><p>Settings</p></Link>
        </div>
 
-       <div style={{color:'white', position:'absolute', bottom:'30px'}}>
-         <p>Logout</p>
+       <div className='logout-wrapper'>
+         <Link to='home' className='logout'><FontAwesomeIcon icon={faArrowLeft} className="fa-1x logout-icon"></FontAwesomeIcon><p>Logout</p></Link>
        </div>
       </ul>
     </nav>
