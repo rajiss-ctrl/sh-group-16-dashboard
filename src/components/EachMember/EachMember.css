@@ -1,0 +1,33 @@
+/* css for Each Member */
+
+.team-members {
+    display: flex;
+    margin-top: 40px;
+    padding: 0 40px 0 40px;
+}
+
+.each-member {
+    float: right;
+    padding-right: 30px;
+}
+
+.each-member-card {
+    width: 100px;
+
+}
+
+.each-member-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 2px solid #17585C;
+}
+
+.each-member-name {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.each-member-title {
+    font-size: 12px;
+}

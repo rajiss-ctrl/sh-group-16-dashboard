@@ -1,8 +1,12 @@
 .team-member-container {
-        margin-left: 200px;
+    margin-left: 200px;
     width: 85%;
-    min-height: 1000px; 
-  
+    /* min-height: 1000px;  */
+    padding-bottom: 50px;
+    background: radial-gradient(100% 197.75% at 0% 22.22%, #296687 0%, #4DE0E5 51.56%, #001C20 100%)
+            /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+            , #FFFFFF;
+        background-repeat: no-repeat;
 }
 
 main{
@@ -15,12 +19,13 @@ main{
     display: flex;
     flex: space-between;
     width: 100%;
-    margin: 170px 0 100px 0;
+    margin: 50px 0 100px 0;
+    padding-right: 20px;
 }
 .members{
+    margin-top: -1000px;
     padding-bottom: 20px;
     width: 1000px;
-    height: 775px;
     background: #ECEFF7;
     opacity: 0.8;
     border-radius: 50px 50px 0px

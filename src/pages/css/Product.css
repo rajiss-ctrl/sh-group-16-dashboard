@@ -1,8 +1,12 @@
 .product-container {
-    margin-left: 200px;
-    width: 85%;
-    min-height: 1000px;
-
+margin-left: 200px;
+width: 85%;
+min-height: 1200px; 
+padding-bottom: 50px;
+background: radial-gradient(100% 197.75% at 0% 22.22%, #296687 0%, #4DE0E5 51.56%, #001C20 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #FFFFFF;
+    background-repeat: no-repeat;
 }
 
 main {
@@ -15,13 +19,15 @@ main {
 .separator {
     display: flex;
     flex: space-between;
-    width: 100%;
-    margin: 170px 0 100px 0;
+    margin-left: 200px;
+    width: 85%;
+    min-height: 1000px;
 }
 
 .product-info {
+    margin-top: -1000px;
     padding-bottom: 20px;
-    height: 775px;
+    height: auto;
     opacity: 0.8;
     width: 1086px;
     background: #F5F5F5;
@@ -104,4 +110,9 @@ main {
     width: 60px;
     height: 22px;
     background: #4DE0E5;
+}
+
+.product-cards-container .card img{
+ width: 180px;
+ border-radius: 10px;
 }

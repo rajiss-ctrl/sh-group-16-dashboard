@@ -1,0 +1,9 @@
+/* CSs for Item Card */
+
+.item-card {
+    width: 150px;
+    height: max-content;
+    padding-bottom: 10px;
+    background: #ffffff;
+    margin-right: 15px;
+}
