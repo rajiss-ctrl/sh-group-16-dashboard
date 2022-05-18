@@ -9,6 +9,7 @@ import Sidebar from '../components/sidebar/Sidebar'
 // import Cardiac from '../assets/productImg/cardiallac 1.png'
 import './css/Product.css'
 
+import Sidebar from '../components/sidebar/Sidebar'
 const Clients = () => {
   const [client, setClient] = useState([])
 
@@ -57,12 +58,10 @@ useEffect(() => {
             })}
           
 
-
            </div> 
         </div>
       </main>
-
-    </div>
+              </div>
   )
 }
 
