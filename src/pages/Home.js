@@ -1,11 +1,11 @@
 import React from 'react'
 import './css/Home.css';
+import './css/Product.css'
 import Navbar from '../components/navbar/Navbar';
 import Button from '../components/button/Button';
 import TeamButton from '../components/button/TeamButton'
-import EachMember from '../components/EachMember/EachMember'
-import ItemCard from '../components/itemCard/'
 import Analytics from '../assets/Analytics.jpg';
+import Cardiac from '../assets/productImg/cardiallac 1.png'
 import Sidebar from '../components/sidebar/Sidebar';
 
 
@@ -28,20 +28,59 @@ const Home = () => {
               <img src={Analytics} alt="" />
             </div>
 
+{/* Team Members Section */}
             <div className="team-card">
               <div className="title">
                 <h2>Team Members</h2>
               </div>
+
               <div className="team-members">
 
-                <div className="each">
-                  <EachMember/>
-
+                <div className="each-member">
+                  <div className="each-member-card"> <img src={Analytics} alt="" /></div>
+                  <div>
+                    <h3 className="each-member-name"> Doyle S.</h3>
+                    <p className="each-member-title">UI/UX Designer</p>
+                  </div>
                 </div>
+
+                <div className="each-member">
+                  <div className="each-member-card"> <img src={Analytics} alt="" /></div>
+                  <div>
+                    <h3 className="each-member-name"> Doyle S.</h3>
+                    <p className="each-member-title">UI/UX Designer</p>
+                  </div>
+                </div>
+
+                <div className="each-member">
+                  <div className="each-member-card"> <img src={Analytics} alt="" /></div>
+                  <div>
+                    <h3 className="each-member-name"> Doyle S.</h3>
+                    <p className="each-member-title">UI/UX Designer</p>
+                  </div>
+                </div>
+
+                <div className="each-member">
+                  <div className="each-member-card"> <img src={Analytics} alt="" /></div>
+                  <div>
+                    <h3 className="each-member-name"> Doyle S.</h3>
+                    <p className="each-member-title">UI/UX Designer</p>
+                  </div>
+                </div>
+
+                <div className="each-member">
+                  <div className="each-member-card"> <img src={Analytics} alt="" /></div>
+                  <div>
+                    <h3 className="each-member-name"> Doyle S.</h3>
+                    <p className="each-member-title">UI/UX Designer</p>
+                  </div>
+                </div>
+
                 <TeamButton props="View Members"/>
               </div>
             </div>
 
+{/* Client Section */}
 
             <div className="client-card">
               <div className="title">
@@ -67,7 +106,19 @@ const Home = () => {
               <div className="title">
                 <h2>Products</h2>
               </div>
-              <ItemCard/>
+              <div className="product-cards-container">
+                <div className="card">
+               <img src={Cardiac} alt="cardiac car" />
+               <div className="card-info">
+                 <div className='name-tax'>
+                    <h4>Ford</h4>
+                    <p>$5,000</p>
+                    <span>Tax: 2%</span>
+                 </div>
+                 <button>View</button>
+               </div>
+             </div>
+              </div>
             </div>
 
 
