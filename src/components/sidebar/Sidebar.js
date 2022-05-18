@@ -13,10 +13,10 @@ const Sidebar = () => {
     <nav>
       <ul>
           <div className="dashboard">
-            <Link to="/dashboard"><h4>Dashboard</h4></Link>
+            <Link to="/sh-group-16-dashboard"><h4>Dashboard</h4></Link>
           </div>
           <div className="nav-list">
-            <Link to="/" className="home"><FontAwesomeIcon icon={faHome} className="fa-1x home-icon"></FontAwesomeIcon><p>Home</p></Link>
+            <Link to="/sh-group-16-dashboard" className="home"><FontAwesomeIcon icon={faHome} className="fa-1x home-icon"></FontAwesomeIcon><p>Home</p></Link>
             <Link to="/teammember" className="group" ><FontAwesomeIcon icon={faUserGroup} className="fa-1x group-icon"></FontAwesomeIcon><p>Team Member</p></Link>
             <Link to="/clients" className='user' ><FontAwesomeIcon icon={faUser} className="fa-1x user-icon"></FontAwesomeIcon><p>Clients</p></Link>
             <Link to="/products" className='shop' ><FontAwesomeIcon icon={faBagShopping} className="fa-1x shop-icon"></FontAwesomeIcon><p>Products</p></Link>

@@ -6,13 +6,14 @@ import TeamButton from '../components/button/TeamButton'
 import EachMember from '../components/EachMember/EachMember'
 import ItemCard from '../components/itemCard/'
 import Analytics from '../assets/Analytics.jpg';
+import Sidebar from '../components/sidebar/Sidebar';
 
 
 const Home = () => {
   return (
 
     <div className="container">
-
+        <Sidebar/>
         <main>
           <div className="separator">
             <Navbar/>
