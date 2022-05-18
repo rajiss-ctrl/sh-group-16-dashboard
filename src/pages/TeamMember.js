@@ -8,7 +8,7 @@ import './css/TeamMember.css'
 const TeamMember = () => {
   return (
     <div className="team-member-container">
-
+            <Sidebar/>
       <main>
         <div className="separator">
               <Navbar/>

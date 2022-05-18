@@ -1,7 +1,6 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import { Routes, Route} from 'react-router-dom'
 import './App.css';
-import Sidebar from './components/sidebar/Sidebar';
-// import { Layout } from './Layout';
+import Sidebar from './components/sidebar/Sidebar'; import { Layout } from './Layout';
 import Clients from './pages/Clients';
 import Home from './pages/Home';
 import Login from './pages/Login';
@@ -13,15 +12,16 @@ function App() {
   return (
     <div className="App">
      
-        <Sidebar/> 
+
       <Routes>
-            {/* <Route path="/" element={<Layout/>}/> */}
-            <Route path='/' element={<Home/>}/>
+          <Route path="/" element={<Layout/>}/> 
+            <Route path='/sh-group-16-dashboard' element={<Home/>}/>
             <Route  path="/Login" element={<Login/>}/>
             <Route  path="/Teammember" element={<TeamMember/>}/>
             <Route  path="/Products" element={<Products/>}/>
             <Route  path="/Clients" element={<Clients/>}/>
             <Route  path="/Settings" element={<Settings/>}/>
+          <Route/>
       </Routes>
     
     </div>

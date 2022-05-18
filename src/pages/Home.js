@@ -4,13 +4,14 @@ import Navbar from '../components/navbar/Navbar';
 import Button from '../components/button/Button';
 import TeamButton from '../components/button/TeamButton'
 import Analytics from '../assets/Analytics.jpg';
+import Sidebar from '../components/sidebar/Sidebar';
 
 
 const Home = () => {
   return (
 
     <div className="container">
-
+        <Sidebar/>
         <main>
           <div className="separator">
             <Navbar/>
