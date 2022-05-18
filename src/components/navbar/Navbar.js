@@ -2,7 +2,6 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Navbar.css'
 import { faBell, faSearch } from '@fortawesome/free-solid-svg-icons';
-import Button from '../button/Button'
 
 const Navbar = () => {
   return (
