@@ -30,3 +30,17 @@
     border-radius: 15px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.ViewButton{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 3px 15px 3px 15px;
+    font-weight: 800;
+    font-size: 12px;
+    background: #4DE0E5;
+    color: #50819D;
+    border-radius: 15px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

@@ -3,6 +3,8 @@ import './css/Home.css';
 import Navbar from '../components/navbar/Navbar';
 import Button from '../components/button/Button';
 import TeamButton from '../components/button/TeamButton'
+import EachMember from '../components/EachMember/EachMember'
+import ItemCard from '../components/itemCard/'
 import Analytics from '../assets/Analytics.jpg';
 
 
@@ -32,40 +34,40 @@ const Home = () => {
               <div className="team-members">
 
                 <div className="each">
-                  <div className="each-member">
-                    <div className="each-member-card"> <img src={Analytics} alt="" /> </div>
-                    <p className="each-member-name">Doyle S.</p>
-                    <p className="each-member-title">UI/UX Designer</p>
-                  </div>
+                  <EachMember/>
 
-                  <div className="each-member">
-                    <div className="each-member-card"><img src={Analytics} alt="" /></div>
-                    <p className="each-member-name">Doyle S.</p>
-                    <p className="each-member-title">UI/UX Designer</p>
-                  </div>
-
-                  <div className="each-member">
-                    <div className="each-member-card"><img src={Analytics} alt="" /></div>
-                    <p className="each-member-name">Doyle S.</p>
-                    <p className="each-member-title">UI/UX Designer</p>
-                  </div>
-
-                  <div className="each-member">
-                    <div className="each-member-card"><img src={Analytics} alt="" /></div>
-                    <p className="each-member-name">Doyle S.</p>
-                    <p className="each-member-title">UI/UX Designer</p>
-                  </div>
-
-                  <div className="each-member">
-                    <div className="each-member-card"><img src={Analytics} alt="" /></div>
-                    <p className="each-member-name">Doyle S.</p>
-                    <p className="each-member-title">UI/UX Designer</p>
-                  </div>
                 </div>
                 <TeamButton props="View Members"/>
               </div>
             </div>
 
+
+            <div className="client-card">
+              <div className="title">
+                <h2>Clients</h2>
+              </div>
+
+              <div className="client-infor">
+                <table>
+                  <thead>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+            </div>
+
+            <div className="product-card">
+              <div className="title">
+                <h2>Products</h2>
+              </div>
+              <ItemCard/>
+            </div>
 
 
           </div>
