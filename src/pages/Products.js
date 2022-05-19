@@ -17,7 +17,7 @@ const Products = () => {
 useEffect(() => {
 
   const fetchData = async () => {
-    const response = await fetch(`https://fakerapi.it/api/v1/products?_quantity=1`);
+    const response = await fetch(`https://fakerapi.it/api/v1/products?_quantity=10`);
     const productData = await response.json();
     console.log(productData.data)
      setProduct(productData.data)
