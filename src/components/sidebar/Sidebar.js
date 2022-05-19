@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import './Sidebar.css' 
-import { faArrowCircleLeft, faArrowLeft, faBagShopping, faHome,  faUser, faUserGroup } from '@fortawesome/free-solid-svg-icons';
+import {  faArrowLeft, faBagShopping, faHome,  faUser, faUserGroup } from '@fortawesome/free-solid-svg-icons';
 import { faSafari } from '@fortawesome/free-brands-svg-icons';
 
 

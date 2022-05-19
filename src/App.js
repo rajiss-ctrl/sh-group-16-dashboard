@@ -4,9 +4,10 @@ import './App.css';
 import { Layout } from './Layout';
 import Clients from './pages/Clients';
 import Home from './pages/Home';
-import Login from './pages/Login';
 import Products from './pages/Products';
 import Settings from './pages/Settings';
+import Signin from './pages/Signin';
+import Signup from './pages/Signup';
 import TeamMember from './pages/TeamMember';
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
           <Route path="/" element={<Layout/>}/> 
             <Route path='/sh-group-16-dashboard' element={<Home/>}/>
           <Route/>
-            <Route  path="/Login" element={<Login/>}/>
+            <Route  path="/signup" element={<Signup/>}/>
+            <Route  path="/signin" element={<Signin/>}/>
             <Route  path="/Teammember" element={<TeamMember/>}/>
             <Route  path="/Products" element={  <Products />}/>
             <Route  path="/Clients" element={<Clients/>}/>

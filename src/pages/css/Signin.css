@@ -1,0 +1,50 @@
+.signin {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: radial-gradient(100% 197.75% at 0% 22.22%, #296687 0%, #4DE0E5 51.56%, #001C20 100%)
+            /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+            , #FFFFFF;
+        background-repeat: no-repeat;
+}
+.ckeck{
+    width: 100%;
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+}
+.ckeck p{
+    margin-top: 20px;
+    text-align: center;
+    width: 124px;
+        height: 22px;
+      font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+     color: #F5F5F5;
+}
+.ckeck input{
+        width: 30px;
+        height: 30px;
+        left: 485px;
+        top: 598px;
+        background: #4DE0E5;
+        border-radius: 5px;
+        color: black;
+}
+
+.signin .form-wrapper h4{
+    padding: 20px 0 0 70px ;
+    width: 300px;
+        height: 24px;
+      font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+    color: #F5F5F5;
+}

@@ -60,10 +60,7 @@ useEffect(() => {
                </div>
               )
             })}
-          
-
-
-           </div> 
+          </div> 
         
         </div>
       </main>

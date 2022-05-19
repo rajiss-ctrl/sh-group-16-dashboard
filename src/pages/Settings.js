@@ -1,11 +1,14 @@
 import React from 'react'
-import Sidebar from '../components/sidebar/Sidebar'
+// import Signin from './Signin'
+import Signup from './Signup'
 
 const Settings = () => {
   return (
     <div>
-      <Sidebar/>
+      <Signup/> 
+      {/* <Signin/> */}
     </div>
+
   )
 }
 

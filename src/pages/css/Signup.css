@@ -1,0 +1,77 @@
+.signup{
+height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: radial-gradient(100% 197.75% at 0% 22.22%, #296687 0%, #4DE0E5 51.56%, #001C20 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #FFFFFF;
+    background-repeat: no-repeat;
+}
+form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+form input{
+    width: 100%;
+    width: 480px;
+    height: 60px;
+    border: 2px solid #4DE0E5;
+    border-radius: 10px;
+    margin-top: 30px;
+    background: transparent;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F5F5F5;
+    padding-left: 10px;
+}
+input[type=submit]{
+width: 480px;
+height: 60px;
+background: #4DE0E5;
+border-radius: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #001C20;
+}
+.form-wrapper{
+    position: relative;
+    width: 600px;
+    height: 610px;
+    background: #001C20;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.form-wrapper h1{
+    width: 300px;
+    height: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+    padding: 20px 50px;
+}
+.form-wrapper a{
+    position: absolute;
+    right:70px;
+    bottom: 80px;
+    text-align: none;
+    font-size: 18px;
+    color:#F5F5F5;
+    text-decoration: none;
+}
