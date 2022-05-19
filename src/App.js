@@ -6,7 +6,7 @@ import Clients from './pages/Clients';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import Settings from './pages/Settings';
-import Signin from './pages/Signin';
+// import Signin from './pages/Signin';
 import Signup from './pages/Signup';
 import TeamMember from './pages/TeamMember';
 
@@ -19,8 +19,8 @@ function App() {
             <Route path='/sh-group-16-dashboard' element={<Signup/>}/>
           <Route/>
             <Route path='/home' element={<Home/>}/>
-            <Route  path="/signup" element={<Signup/>}/>
-            <Route  path="/signin" element={<Signin/>}/>
+            <Route  path="/home" element={<Signup/>}/>
+            {/* <Route  path="/signin" element={<Signin/>}/> */}
             <Route  path="/Teammember" element={<TeamMember/>}/>
             <Route  path="/Products" element={  <Products />}/>
             <Route  path="/Clients" element={<Clients/>}/>
