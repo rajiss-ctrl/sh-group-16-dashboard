@@ -27,8 +27,8 @@ const Clients = () => {
 
       <main>
         <div className="separator">
-          <Navbar />
-          <Button props="Add Members" />
+          <Navbar props="Search Clients" />
+          <Button props="Add Client" />
         </div>
 
         <div className="client-info">
@@ -37,12 +37,7 @@ const Clients = () => {
           </div>
 
           <div className="clients">
-
-
-            {client.map((clnt) => {
-              return (
-
-                <table key={clnt.id}>
+            <table >
                   <thead>
                     <tr>
                       <td></td>
@@ -52,7 +47,10 @@ const Clients = () => {
                       <td>Gender</td>
                     </tr>
                   </thead>
-                  <tbody>
+            {client.map((clnt) => {
+              return (
+
+                  <tbody key={clnt.id}>
                     <tr>
                       <td><img src={clnt.image} alt="client" /></td>
                       <td ><h4>{clnt.name}</h4></td>
@@ -62,19 +60,10 @@ const Clients = () => {
                     </tr>
                   </tbody>
 
-                </table>
-                // <div key={clnt.id} className="client-cards-container">
-                //  <div className="card">
-                //    <img src={clnt.image} alt="cardiac car" />
-                //    <div className="card-info">
-
-                //  </div>
-                //    </div>
-                //    </div>
-
               )
             })}
 
+            </table>
 
           </div>
         </div>

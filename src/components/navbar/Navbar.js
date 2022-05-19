@@ -3,12 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Navbar.css'
 import { faBell, faSearch } from '@fortawesome/free-solid-svg-icons';
 
-const Navbar = () => {
+const Navbar = ({props}) => {
   return (
     <header>
         <div className="search">
            <div className="search-wrapper">
-            <input type="search" placeholder='Search Team Members' />
+            <input type="search" placeholder={props} />
             <FontAwesomeIcon icon={faSearch} className="fa-1x search-icon"></FontAwesomeIcon>
            </div>
             <div className="bell-wrapper">

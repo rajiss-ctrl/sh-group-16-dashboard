@@ -43,10 +43,10 @@ useEffect(() => {
           <div className="products">
            <p>Click on <strong>View</strong> to edit product details  </p>
 
+           <div key={product.id} className="product-cards-container">
             {product.map((product)=>{
               return (
-            <div key={product.id} className="product-cards-container">
-             <div className="card">
+             <div key={product.id} className="card">
                <img src={product.image} alt="cardiac car" />
                <div className="card-info">
                  <div className='name-tax'>
@@ -57,9 +57,9 @@ useEffect(() => {
                  <button>View</button>
                </div>
              </div>
-               </div>
               )
             })}
+            </div>
           </div> 
         
         </div>

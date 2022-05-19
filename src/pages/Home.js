@@ -16,7 +16,7 @@ const Home = () => {
         <Sidebar/>
         <main>
           <div className="separator">
-            <Navbar/>
+            <Navbar props="Search Team Members"/>
             <Button props="Add Members"/>
           </div>
 
