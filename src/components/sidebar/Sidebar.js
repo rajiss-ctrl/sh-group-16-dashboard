@@ -13,7 +13,7 @@ const Sidebar = () => {
     <nav>
       <ul>
           <div className="dashboard">
-            <Link to="/sh-group-16-dashboard"><h4>Dashboard</h4></Link>
+            <Link to="/home"><h4>Dashboard</h4></Link>
           </div>
           <div className="nav-list">
             <Link to="/sh-group-16-dashboard" className="home"><FontAwesomeIcon icon={faHome} className="fa-1x home-icon"></FontAwesomeIcon><p>Home</p></Link>

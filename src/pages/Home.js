@@ -10,6 +10,8 @@ import Sidebar from '../components/sidebar/Sidebar';
 
 
 const Home = () => {
+  let admin = JSON.parse(sessionStorage.getItem('adminDetails'))
+
   return (
 
     <div className="container">
@@ -22,7 +24,7 @@ const Home = () => {
 
           <div className="card">
             <h2 className="welcome">
-              Welcome, 
+              Welcome, {admin.name}
             </h2>
             <div className="analytics">
               <img src={Analytics} alt="" />

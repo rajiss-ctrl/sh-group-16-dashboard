@@ -16,8 +16,9 @@ function App() {
 
       <Routes>
           <Route path="/" element={<Layout/>}/> 
-            <Route path='/sh-group-16-dashboard' element={<Home/>}/>
+            <Route path='/sh-group-16-dashboard' element={<Signup/>}/>
           <Route/>
+            <Route path='/home' element={<Home/>}/>
             <Route  path="/signup" element={<Signup/>}/>
             <Route  path="/signin" element={<Signin/>}/>
             <Route  path="/Teammember" element={<TeamMember/>}/>
