@@ -31,8 +31,8 @@ useEffect(() => {
 
      <main>
         <div className="separator">
-              <Navbar/>
-              <Button props="Add Members"/>
+              <Navbar props="Search Team Products"/>
+              <Button props="Add Products"/>
         </div>
 
         <div className="product-info">
