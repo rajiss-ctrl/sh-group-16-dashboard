@@ -1,7 +1,7 @@
 import { Routes, Route} from 'react-router-dom'
 
 import './App.css';
-import { Layout } from './Layout';
+// import { Layout } from './Layout';
 import Clients from './pages/Clients';
 import Home from './pages/Home';
 import Products from './pages/Products';
@@ -15,9 +15,9 @@ function App() {
     <div className="App">
 
       <Routes>
-          <Route path="/" element={<Layout/>}/> 
+          // <Route path="/" element={<Layout/>}/> 
             <Route path='/sh-group-16-dashboard' element={<Signup/>}/>
-          <Route/>
+          // <Route/>
             <Route path='/home' element={<Home/>}/>
             <Route  path="/sh-group-16-dashboard" element={<Signup/>}/>
             {/* <Route  path="/signin" element={<Signin/>}/> */}
