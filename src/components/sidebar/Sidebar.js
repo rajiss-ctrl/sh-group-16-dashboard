@@ -23,8 +23,8 @@ const Sidebar = () => {
             <Link to="/settings" className='setting'><FontAwesomeIcon icon={faSafari} className="fa-1x setting-icon"></FontAwesomeIcon><p>Settings</p></Link>
           </div>
 
-          <div className='logout-wrapper'>
-            <Link to='/signup' className='logout'><FontAwesomeIcon icon={faArrowLeft} className="fa-1x logout-icon"></FontAwesomeIcon><p>Sign Up</p></Link>
+          <div className='login-wrapper'>
+            <Link to='/signin' className='login'><FontAwesomeIcon icon={faArrowLeft} className="fa-1x login-icon"></FontAwesomeIcon><p>Login</p></Link>
           </div>
       </ul>
     </nav>

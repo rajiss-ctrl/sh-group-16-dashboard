@@ -4,9 +4,11 @@ import Navbar from '../components/navbar/Navbar'
 import Button from '../components/button/Button'
 import Sidebar from '../components/sidebar/Sidebar'
 import './css/TeamMember.css'
+import { useNavigate } from 'react-router-dom'
 
 const TeamMember = () => {
 const [member, setMember] = useState([])
+const navigate = useNavigate()
 
 
 useEffect(() => {
@@ -23,13 +25,18 @@ useEffect(() => {
 }, [setMember])
 
 
+const handleClick = ()=>{
+  navigate('/signup')
+}
+
+
   return (
     <div className="team-member-container">
             <Sidebar/>
       <main>
         <div className="separator">
               <Navbar props="Search Team Members"/>
-              <Button props="Add Members"/>
+              <Button handleClick={handleClick} props="Signin As Admin"/>
         </div>
 
         <div className="members">

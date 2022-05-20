@@ -2,10 +2,10 @@ import React from 'react'
 import './Button.css'
 
 
-const Button = ({props}) => {
+const Button = ({props,handleClick}) => {
   return (
     <div>
-        <button className="main-button">{props}</button>
+        <button  onClick={handleClick} className="main-button">{props}</button>
     </div>
   )
 }
