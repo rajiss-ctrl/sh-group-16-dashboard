@@ -24,7 +24,7 @@ const Sidebar = () => {
           </div>
 
           <div className='logout-wrapper'>
-            <Link to='home' className='logout'><FontAwesomeIcon icon={faArrowLeft} className="fa-1x logout-icon"></FontAwesomeIcon><p>Logout</p></Link>
+            <Link to='/signup' className='logout'><FontAwesomeIcon icon={faArrowLeft} className="fa-1x logout-icon"></FontAwesomeIcon><p>Sign Up</p></Link>
           </div>
       </ul>
     </nav>
