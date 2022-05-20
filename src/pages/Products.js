@@ -3,7 +3,6 @@ import {useState, useEffect } from 'react';
 import Button from '../components/button/Button'
 import Navbar from '../components/navbar/Navbar'
 import Sidebar from '../components/sidebar/Sidebar'
-import Cardiac from '../assets/productImg/cardiallac 1.png'
 // import Drean from '../assets/productImg/dreamcar 1.png'
 // import Cardiac from '../assets/productImg/cardiallac 1.png'
 // import Cardiac from '../assets/productImg/cardiallac 1.png'

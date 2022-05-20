@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './css/Signup.css'
 
 const Signup = () => {
-   const [formValid, setFormValid] = useState(false)
+  //  const [formValid, setFormValid] = useState(false)
   const [form, setForm]=useState({
     name:"",
     email:"",
@@ -20,17 +20,17 @@ const Signup = () => {
       })
   }
   useEffect(()=>{
-     if (
-         form.name !== "" &&
-         form.email !== "" &&
-         form.password !== "" &&
-         form.phoneNumber !== ""
+    //  if (
+    //      form.name !== "" &&
+    //      form.email !== "" &&
+    //      form.password !== "" &&
+    //      form.phoneNumber !== ""
       
-     ){
-         setFormValid(true)
-     } else {
-         setFormValid(false)
-     }
+    //  ){
+    //      setFormValid(true)
+    //  } else {
+    //      setFormValid(false)
+    //  }
  }, [form])
 
   const handleSubmit = (e)=>{
