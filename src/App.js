@@ -15,9 +15,9 @@ function App() {
     <div className="App">
 
       <Routes>
-          // <Route path="/" element={<Layout/>}/> 
+          
             <Route path='/sh-group-16-dashboard' element={<Signup/>}/>
-          // <Route/>
+          
             <Route path='/home' element={<Home/>}/>
             <Route  path="/sh-group-16-dashboard" element={<Signup/>}/>
             {/* <Route  path="/signin" element={<Signin/>}/> */}
