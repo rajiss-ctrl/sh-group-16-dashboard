@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sh-group-16-dashboard/static/css/main.80b8fb32.css",
-    "main.js": "/sh-group-16-dashboard/static/js/main.4fa26748.js",
+    "main.js": "/sh-group-16-dashboard/static/js/main.a2660305.js",
     "static/media/Analytics.jpg": "/sh-group-16-dashboard/static/media/Analytics.23a9f8725bb52ab24cd2.jpg",
     "static/media/cardiallac 1.png": "/sh-group-16-dashboard/static/media/cardiallac 1.04af10e6a75c03d5b229.png",
     "index.html": "/sh-group-16-dashboard/index.html",
     "main.80b8fb32.css.map": "/sh-group-16-dashboard/static/css/main.80b8fb32.css.map",
-    "main.4fa26748.js.map": "/sh-group-16-dashboard/static/js/main.4fa26748.js.map"
+    "main.a2660305.js.map": "/sh-group-16-dashboard/static/js/main.a2660305.js.map"
   },
   "entrypoints": [
     "static/css/main.80b8fb32.css",
-    "static/js/main.4fa26748.js"
+    "static/js/main.a2660305.js"
   ]
 }
