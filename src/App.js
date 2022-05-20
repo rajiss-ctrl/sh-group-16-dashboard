@@ -16,7 +16,7 @@ function App() {
 
       <Routes>
           
-            <Route path='/sh-group-16-dashboard' element={<Signup/>}/>
+            {/* <Route path='/sh-group-16-dashboard' element={<Signup/>}/> */}
           
             <Route path='/home' element={<Home/>}/>
             <Route  path="/sh-group-16-dashboard" element={<Signup/>}/>
