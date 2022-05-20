@@ -39,7 +39,7 @@ const Signup = () => {
     // window.location='/sh-group-16-dashboard'
 
       setTimeout(() => {
-          window.location="/home"
+          window.location.href="/home"
           
         }, 5000);
   }
