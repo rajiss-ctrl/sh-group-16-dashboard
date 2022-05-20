@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link,useNavigate } from 'react-router-dom'
 import './css/Signup.css'
 
 const Signup = () => {
   //  const [formValid, setFormValid] = useState(false)
+  let navigate = useNavigate();
   const [form, setForm]=useState({
     name:"",
     email:"",
@@ -37,11 +38,8 @@ const Signup = () => {
     e.preventDefault()
     sessionStorage.setItem('adminDetails',JSON.stringify({...form}))
     // window.location='/sh-group-16-dashboard'
-
-      setTimeout(() => {
-          window.location.href="/home"
-          
-        }, 5000);
+          navigate('/home')
+          // window.location.href="/home"
   }
 
   
